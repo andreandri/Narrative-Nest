@@ -1,0 +1,115 @@
+html,body,*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-image: url('foto/home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Menutupi seluruh tinggi halaman */
+}
+
+.navigasi {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    background-color: gray; /* Warna latar belakang navigasi */
+    gap: 20px;
+}
+
+.navigasi .NarrativeNest{
+    margin-right: auto;
+}
+
+.NarrativeNest{
+    font-size:  2rem;
+    font-weight: 700;
+    color: #fff;
+    font-style: italic;
+  }
+  
+.NarrativeNest span {
+    color: #a5774a;
+}
+
+/* Mengatur tata letak kontainer */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Tinggi kontainer */
+}
+
+.container a {
+    margin-top: 2%;
+}
+
+/* Mengatur tata letak formulir login/registrasi */
+.login{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang login/registrasi */
+    width: 30%;
+}
+
+.login input{
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #1a1818;
+    border-radius: 5px;
+}
+
+.login a {
+    color: #fff; /* Warna teks tautan */
+    text-decoration: underline; /* Garis bawah tautan */
+    display: block; /* Membuat tautan menjadi blok */
+    margin-top: 10px; /* Ruang atas antara tautan dan tombol */
+}
+
+.b{
+    margin-left: 36%;
+}
+
+/* Mengatur tata letak tombol */
+.login-button, .regis-button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #857a7a; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+}
+
+
+.login-button :hover{
+    background-color:  #45a049;
+}
+.login a {
+    text-align: center;
+ }
+
+/* Mengatur tampilan footer */
+.kaki {
+    position: fixed; /* Menetapkan posisi footer */
+    bottom: 0; /* Menempatkan footer di bagian bawah halaman */
+    left: 0; /* Menempatkan footer di sebelah kiri halaman */
+    width: 100%; /* Menyesuaikan lebar dengan halaman */
+    display: flex;
+    justify-content: space-between; /* Menyebarakan elemen di dalam footer */
+    align-items: center;
+    background-color: gray; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks footer */
+    height: 50px; /* Tinggi footer */
+}
+
+.kaki .WEB{
+    margin-left: 10px; /* Menambahkan margin kiri pada tulisan WEB BUKU KITA @Corporation */
+}

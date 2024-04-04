@@ -1,0 +1,86 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  /* Warna latar belakang halaman */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 80%;
+  background-color: #fff;
+  padding: 30px;
+  border: 2px solid #ddd;
+  /* Warna border menjadi abu-abu */
+  border-radius: 10px;
+  /* Border radius diperbesar agar lebih membulat */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  /* Border radius diperbesar agar lebih membulat */
+  font-size: 16px;
+}
+
+.half-width {
+  width: calc(50% - 8px);
+  display: inline-block;
+  margin-right: 16px;
+}
+
+button {
+  background-color: #4caf50;
+  /* Warna hijau yang lebih terang */
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  /* Border radius diperbesar agar lebih membulat */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  /* Efek transisi saat hover */
+}
+
+button:hover {
+  background-color: #45a049;
+  /* Warna hijau yang lebih gelap saat hover */
+}
+
+#shippingCost {
+  margin-top: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  /* Warna teks lebih gelap */
+}
+
+

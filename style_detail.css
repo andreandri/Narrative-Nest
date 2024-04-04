@@ -1,0 +1,93 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("foto/HALAMAN UTAMA.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  padding: 50px;
+  width: 26%;
+  height: 26%;
+}
+
+.detail {
+  background-color: white;
+  padding: 50px 50px 20px 50px;
+}
+
+.t1 {
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.t2 {
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.teks {
+  margin-bottom: 10px;
+}
+
+.tek {
+  margin-bottom: 2px;
+}
+
+.tekdetail {
+  color: grey;
+}
+
+.bayar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.li_bayar {
+  list-style-type: none;
+  margin-right: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5px;
+}
+
+.button {
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+}
+
+.back {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+
+.back:hover {
+  transition: 0.2s ease-in-out;
+  background-color: gray;
+  transform: scale(110%);
+}
